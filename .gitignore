@@ -1,9 +1,6 @@
 # 🔐 Chaves e variáveis de ambiente
 .env
 
-# 🧠 Banco vetorial local (ChromaDB)
-db/
-
 # 🐍 Arquivos Python compilados
 __pycache__/
 *.pyc

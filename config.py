@@ -21,3 +21,8 @@ assert OPENAI_API_KEY, "⚠️ Defina a variável OPENAI_API_KEY no seu ambiente
 # ───────────────────────────────────────────────
 CHUNK_SIZE = 8000            # Tamanho de cada pedaço para embeddings
 TOP_K = 7                    # Quantidade de chunks mais relevantes selecionados
+
+
+# Modelos utilizados
+EMBEDDING_MODEL = "text-embedding-3-large"
+CHAT_MODEL = "gpt-3.5-turbo"
