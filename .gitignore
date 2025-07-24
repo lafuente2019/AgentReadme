@@ -1,0 +1,17 @@
+# 🔐 Chaves e variáveis de ambiente
+.env
+
+# 🧠 Banco vetorial local (ChromaDB)
+db/
+
+# 🐍 Arquivos Python compilados
+__pycache__/
+*.pyc
+
+# 📦 Arquivos de cache do pip
+*.egg-info/
+dist/
+build/
+
+# 📄 Logs
+*.log
