@@ -66,23 +66,19 @@ Essa abordagem **manual** foi escolhida para manter o projeto **simples, leve e 
 
 
 ---
-
-## 🗂️ Estrutura do Projeto
+## 📂 Estrutura de Pastas
 
 ```
-.
-├── app.py                 # Roteamento Flask
-├── config.py              # Variáveis de ambiente (.env)
-├── github_utils.py        # Lógica de leitura de repositórios e README
-├── openai_utils.py        # Lógica de embeddings, ranking e resposta
+├── app.py                # Aplicação Flask
+├── github_utils.py       # Funções para ler repositórios do GitHub
+├── openai_utils.py       # Funções de chunk, embedding, RAG
 ├── templates/
-│   └── index.html         # Interface do usuário
-├── .env                   # Suas chaves (NÃO subir no Git)
-├── .gitignore             # Evita subir chaves e pastas sensíveis
-└── README.md              # Este arquivo
+│   └── index.html        # Interface web
+├── img/
+│ └── agent.png           # Imagem usada na interface
+├── config.py             # Configurações globais (.env)
+└── README.md             # Este arquivo
 ```
-
----
 
 ## ⚙️ Requisitos
 
@@ -108,10 +104,10 @@ Essa abordagem **manual** foi escolhida para manter o projeto **simples, leve e 
 
 3. **Instale as dependências**
    ```bash
-    flask
-    openai
-    python-dotenv
-    requests
+   pip install flask
+   pip install openai
+   pip install python-dotenv
+   pip install requests
    ```
 
 4. **Execute o servidor**
