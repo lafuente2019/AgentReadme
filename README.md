@@ -12,7 +12,7 @@ Este projeto é um agente inteligente capaz de ler e interpretar arquivos `READM
 
 ## 🖼️ Demonstração
 
-![Demonstração do Agente](https://i.imgur.com/seuexemplo.gif)
+![Interface do Agent Readme](img/agent.png)
 
 ---
 
